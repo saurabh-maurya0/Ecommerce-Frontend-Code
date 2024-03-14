@@ -1,0 +1,45 @@
+/* SustainabilityInitiatives.css */
+.sustainability-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sustainability-content {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .sustainability-image {
+    flex: 1;
+    height: 250px; 
+    width: 700px; 
+    /* Set your preferred height */
+    background-image: url('https://sustanafiber-production.s3.ca-central-1.amazonaws.com/app/uploads/2019/10/07001038/How-to-reach-your-corporate-sustainability-goals-image-01.jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+  

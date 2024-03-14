@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+    .responsive-image {
+      width: 100%;       /* Full width for mobile view */
+      height: auto;      /* Allow the height to adjust proportionally */
+    }
+  }

@@ -1,0 +1,51 @@
+@keyframes blinking {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes colorChange {
+    0% {
+      color: #ffffff;
+    }
+    50% {
+      color: #ffffff;
+    }
+    100% {
+      color: #ffffff;
+    }
+  }
+  
+
+  #home{
+
+    background-image: url( '/public/asset/adver.jpg');
+  }
+
+  
+  @media (max-width: 769px){
+    .sale{
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    .common{
+
+      display: flex;
+      flex-direction: column;
+     
+
+    }
+    .boat{
+
+      width: 100%;
+    }
+  
+ }

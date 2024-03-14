@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.list-group-item.active {
+
+  background: #e2e2e2 !important;
+ color:rgb(51, 0, 94);
+ font-weight: 700;
+  border: none !important;
+  border-radius: 7px;
+
+}
+  /* background: linear-gradient(180deg, rgba(250,3,99,1) 0%, rgba(2,55,145,1) 94%, rgba(103,0,101,1) 94%, rgba(1,186,243,1) 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 700;
+ 
+
+/* Set border-image using linear-gradient */
+/* border-image: linear-gradient(180deg, rgba(250,3,99,1) 0%, rgba(2,55,145,1) 94%, rgba(103,0,101,1) 94%, rgba(1,186,243,1) 100%) 1; */
+
+/* Set border style to solid */
+/* 
+border-style: solid; */
+
+
+
+/* Set border width */
+/* border-width: 2px;
+Adjust the width as needed */ 
+/* border: none; */
+
+
+
+
+.list-group-item {
+ 
+  margin-top: 23x;
+  border: 1px solid #e2e2e2;
+}
+
+
+#live:checked {
+
+  background-color:rgb(243, 1, 1);
+  border-color: rgb(255, 0, 0);
+
+}
+
+#stock:checked {
+
+  background-color:green;
+  border-color: green;
+
+}
+
+
+.active>.page-link, .page-link.active {
+  background-color: #aa00f3  !important;
+  border-color: #aa00f3 !important;
+  border-radius: 5px;
+}
+
+
+.animation{
+transition: all 100ms linear !important;
+
+}
+
+body{
+  background-color: #f9f7f2 !important;
+}
+

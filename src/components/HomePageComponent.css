@@ -1,0 +1,29 @@
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    150% { border-color: rgb(0, 8, 255); }
+  }
+  
+  @keyframes removeText {
+    from { width: 100%; }
+    to { width: 0; }
+  }
+  
+  .typing-animation {
+    overflow: hidden;
+    border-right: 0.15em solid rgb(255, 0, 0);
+    white-space: nowrap;
+    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  /* Add this class to remove the text with a delay after typing */
+  .removing-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: removeText 1s forwards; /* Adjust the duration as needed */
+  }
+  

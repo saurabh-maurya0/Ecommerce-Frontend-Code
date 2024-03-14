@@ -1,0 +1,32 @@
+/* TeamShowcase.css */
+.team-showcase-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 50px;
+  }
+  
+  .team-member {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .role {
+    color: #4caf50;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
